@@ -46,38 +46,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-html, body, #app{
-			width: 100%; height: 100%;
-			margin: 0px; padding: 0px;
-		}
-		.d-title {
-			width: 100%; height: auto;
-			margin: 0px; padding: 30px 0px;
-			background-color: silver;
-			font-size: 2em;
-			text-align: center;
-		}
-		.d-line-1 {
-			width: 100%; height: auto;
-			margin: 0px; padding: 120px 0px 10px 0px;
-			background-color: lightgray;
-			text-align: center;
-			font-size: 2em;
-		}
-		.d-line-2 {
-			width: 100%; height: auto;
-			margin: 0px; padding: 0px;
-			background-color: lightgray;
-			text-align: center;
-			font-size: 6em;
-			font-weight: bold;
-			color: darkred;
-		}
-		.d-line-3 {
-			width: 100%; height: auto;
-			margin: 0px; padding: 10px 0px 120px 0px;
-			background-color: lightgray;
-			text-align: center;
-			font-size: 2em;
-		}
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
 </style>
